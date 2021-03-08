@@ -2,6 +2,16 @@
  * YOUR CODE HERE *
  ******************/
 
+function colorDeconstructor(str){
+  if(str === 'orange'){
+    return 'red and yellow'
+  } else if( str === 'purple'){
+    return 'red and blue'
+  } else if ( str === 'green'){
+    return 'blue and yellow';
+  }
+}
+
 
 
 
